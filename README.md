@@ -10,24 +10,7 @@ Some CodeChef Question are.
          
  
 ## Solution
-```
-#include <iostream>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int n;
-	while(1)
-	{
-	    cin>>n;
-	    if(n==42)
-	     {break;}
-	    else{
-	        cout<<n<<endl;
-	}}
-	return 0;
-}
-````
+Click here(https://www.codechef.com/viewsolution/36199951)
 
 
 ## Question 2
@@ -37,29 +20,7 @@ int main() {
 #### Input => The first line contains an integer T, total number of testcases. Then follow T lines, each line contains an integer N.
 
 ## Solution
-```
-#include <iostream>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	for(int i=0;i<t;i++)
-	{   int n;
-	    cin>>n;
-	    int rev=0;
-	    while(n>0)
-	    {
-	       rev=(rev*10)+(n%10);
-	       n=n/10;
-	    }
-	   cout<<rev<<"\n"; 
-	    
-	}
-	return 0;
-}
-````
+Click here(https://www.codechef.com/viewsolution/35852327)
 
 ## Question 3
 
@@ -70,23 +31,7 @@ int main() {
 #### Input => Line 1 : N, the total number of potential customers. Lines 2 to N+1: Each line has the budget of a potential customer.
 
 ## Solution
-```
-try:
-    n = int(input())
-    x = []
-    for i in range(n):
-        x.append(int(input()))
-    x.sort()
-    y = 0
-    z = 0
-    for i in range(n):
-        y = (n-i)*x[i]
-        if y > z:
-            z = y
-    print(z)
-except EOFError:
-    pass
-````
+Click here(https://www.codechef.com/viewsolution/36318750)
 ## Question 4
 
 ### Factorial
@@ -96,21 +41,7 @@ except EOFError:
 #### Input => There is a single positive integer T on the first line of input (equal to about 100000). It stands for the number of numbers to follow. Then there are T lines, each containing exactly one positive integer number N, 1 <= N <= 1000000000.
 
 ## Solution
-```
-try:
-    T=int(input())
-    for i in range(T):
-        N=int(input())
-        q=int(N)
-        s=0
-        while q>=5:
-            r=q//5
-            s=s+r
-            q=r
-        print(s)
-except EOFError:
-    pass
-````
+Click here(https://www.codechef.com/viewsolution/36313988)
 ## Question 5
 
 ### Coin Flip
@@ -119,16 +50,4 @@ except EOFError:
 
 #### Input => The first line of input contains an integer T, denoting the number of test cases. Then T test cases follow.The first line of each test contains an integer G, denoting the number of games played by Elephant. Each of the following G lines denotes a single game, and contains 3 space separeted integers I, N, Q, where I denotes the initial state of the coins, N denotes the number of coins and rounds, and Q, which is either 1, or 2 as explained below.Here I=1 means all coins are showing Head in the start of the game, and I=2 means all coins are showing Tail in the start of the game. Q=1 means Elephant needs to guess the total number of coins showing Head in the end of the game, and Q=2 means Elephant needs to guess the total number of coins showing Tail in the end of the game.
 ## Solution
-```
-try:
-    for j in range(int(input())):
-       for i in range(int(input())):
-              a,b,c = map(int,input().split())
-              if b%2 == 0 or a==c:
-                 print(int(b/2))
-              else:
-                 
-                     print(int(b/2)+1)
-except EOFError:
-    pass
- ````
+Click here(https://www.codechef.com/viewsolution/36317895)
