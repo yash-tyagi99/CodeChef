@@ -10,7 +10,7 @@ Some CodeChef Question are.
          
  
 ## Solution
-```bash
+```
 #include <iostream>
 using namespace std;
 
@@ -27,6 +27,7 @@ int main() {
 	}}
 	return 0;
 }
+````
 
 
 ## Question 2
@@ -36,7 +37,7 @@ int main() {
 #### Input => The first line contains an integer T, total number of testcases. Then follow T lines, each line contains an integer N.
 
 ## Solution
-```bash
+```
 #include <iostream>
 using namespace std;
 
@@ -58,4 +59,4 @@ int main() {
 	}
 	return 0;
 }
-
+````
