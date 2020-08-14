@@ -10,7 +10,7 @@ Some CodeChef Question are.
          
  
 ## Solution
-Click here(https://www.codechef.com/viewsolution/36199951)
+(https://www.codechef.com/viewsolution/36199951)
 
 
 ## Question 2
@@ -20,7 +20,7 @@ Click here(https://www.codechef.com/viewsolution/36199951)
 #### Input => The first line contains an integer T, total number of testcases. Then follow T lines, each line contains an integer N.
 
 ## Solution
-Click here(https://www.codechef.com/viewsolution/35852327)
+(https://www.codechef.com/viewsolution/35852327)
 
 ## Question 3
 
@@ -31,7 +31,7 @@ Click here(https://www.codechef.com/viewsolution/35852327)
 #### Input => Line 1 : N, the total number of potential customers. Lines 2 to N+1: Each line has the budget of a potential customer.
 
 ## Solution
-Click here(https://www.codechef.com/viewsolution/36318750)
+(https://www.codechef.com/viewsolution/36318750)
 ## Question 4
 
 ### Factorial
@@ -41,7 +41,7 @@ Click here(https://www.codechef.com/viewsolution/36318750)
 #### Input => There is a single positive integer T on the first line of input (equal to about 100000). It stands for the number of numbers to follow. Then there are T lines, each containing exactly one positive integer number N, 1 <= N <= 1000000000.
 
 ## Solution
-Click here(https://www.codechef.com/viewsolution/36313988)
+(https://www.codechef.com/viewsolution/36313988)
 ## Question 5
 
 ### Coin Flip
@@ -50,4 +50,47 @@ Click here(https://www.codechef.com/viewsolution/36313988)
 
 #### Input => The first line of input contains an integer T, denoting the number of test cases. Then T test cases follow.The first line of each test contains an integer G, denoting the number of games played by Elephant. Each of the following G lines denotes a single game, and contains 3 space separeted integers I, N, Q, where I denotes the initial state of the coins, N denotes the number of coins and rounds, and Q, which is either 1, or 2 as explained below.Here I=1 means all coins are showing Head in the start of the game, and I=2 means all coins are showing Tail in the start of the game. Q=1 means Elephant needs to guess the total number of coins showing Head in the end of the game, and Q=2 means Elephant needs to guess the total number of coins showing Tail in the end of the game.
 ## Solution
-Click here(https://www.codechef.com/viewsolution/36317895)
+(https://www.codechef.com/viewsolution/36317895)
+
+## Question 6
+
+### Laddu .
+
+##### Theory => You might have heard about our new goodie distribution program aka the "Laddu Accrual System". This problem is designed to give you a glimpse of its rules. You can read the page once before attempting the problem if you wish, nonetheless we will be providing all the information needed here itself.Laddu Accrual System is our new goodie distribution program. In this program, we will be distributing Laddus in place of goodies for your winnings and various other activities (described below), that you perform on our system. Once you collect enough number of Laddus, you can then redeem them to get yourself anything from a wide range of CodeChef goodies.Let us know about various activities and amount of laddus you get corresponding to them.Contest Win (CodeChef’s Long, Cook-Off, LTIME, or any contest hosted with us) : 300 + Bonus (Bonus = 20 - contest rank). Note that if your rank is > 20, then you won't get any bonus.Top Contributor on Discuss : 300Bug Finder : 50 - 1000 (depending on the bug severity). It may also fetch you a CodeChef internship!Contest Hosting : 50You can do a checkout for redeeming laddus once a month. The minimum laddus redeemable at Check Out are 200 for Indians and 400 for the rest of the world.You are given history of various activities of a user. The user has not redeemed any of the its laddus accrued.. Now the user just wants to redeem as less amount of laddus he/she can, so that the laddus can last for as long as possible. Find out for how many maximum number of months he can redeem the laddus.
+
+#### Input => The first line of input contains a single integer T denoting number of test cases
+#### For each test case:
+#### First line contains an integer followed by a string denoting activities, origin respectively, where activities denotes number of activities of the user, origin denotes whether the user is Indian or the rest of the world. origin can be "INDIAN" or "NON_INDIAN".
+#### For each of the next activities lines, each line contains an activity.
+#### An activity can be of four types as defined above.
+#### Contest Win : Input will be of form of CONTEST_WON rank, where rank denotes the rank of the user.
+#### Top Contributor : Input will be of form of TOP_CONTRIBUTOR.
+#### Bug Finder : Input will be of form of BUG_FOUND severity, where severity denotes the severity of the bug.
+#### Contest Hosting : Input will be of form of CONTEST_HOSTED.
+
+## Solution
+(https://www.codechef.com/viewsolution/36199504)
+
+## Question 7
+
+### Chef and Street Food
+
+##### Theory => in Chefland, there is a very famous street where N types of street food (numbered 1 through N) are offered. For each valid i, there are Si stores that offer food of the i-th type, the price of one piece of food of this type is Vi (the same in each of these stores) and each day, Pi people come to buy it; each of these people wants to buy one piece of food of the i-th type.Chef is planning to open a new store at this street, where he would offer food of one of these N types. Chef assumes that the people who want to buy the type of food he'd offer will split equally among all stores that offer it, and if this is impossible, i.e. the number of these people p is not divisible by the number of these stores s, then only ⌊ps⌋ people will buy food from Chef.Chef wants to maximise his daily profit. Help Chef choose which type of food to offer and find the maximum daily profit he can make.
+
+#### Input => The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+#### The first line of each test case contains a single integer N.
+#### N lines follow. For each i (1≤i≤N), the i-th of these lines contains three space-separated integers Si, Pi and Vi.
+
+## Solution
+(https://www.codechef.com/viewsolution/36200324)
+
+## Question 8
+
+### Zack And The Handkerchieves
+
+##### Theory => Zack is a tailor by profession. He is famous for making square-shaped beautifully-cut and sewed handkerchieves.The customers demand large-sized handkerchieves. So, now Zack is determined to get the maximum size out of the cloth. He has a rectangular piece of cloth of length 'L' and breadth 'B'.His task is to divide it into 'N' square-shaped cloth pieces each of side length ‘S’. So he can make handkerchieves out of them of the maximum size.
+
+#### Input => The first line of the input contains T- the number of test cases. T lines follow. Each line of the test case contains L followed by B.
+
+## Solution
+(https://www.codechef.com/viewsolution/36314630)
